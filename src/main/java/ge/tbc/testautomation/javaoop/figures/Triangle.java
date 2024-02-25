@@ -1,6 +1,6 @@
 package ge.tbc.testautomation.javaoop.figures;
 
-public class Triangle extends Figure{
+public class Triangle{
     double a;
     double b;
     double c;
@@ -13,12 +13,12 @@ public class Triangle extends Figure{
         this.h = h;
     }
 
-    @Override
+
     public double getArea() {
         return b * h / 2;
     }
 
-    @Override
+
     public double getPerimeter() {
         return a + b + c;
     }
