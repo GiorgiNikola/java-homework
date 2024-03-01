@@ -2,7 +2,7 @@ package ge.tbc.testautomation.javaoop.figures;
 
 import java.util.Comparator;
 
-public class Rectangle{
+public class Rectangle extends Figure{
     double a;
     double b;
 
@@ -15,6 +15,16 @@ public class Rectangle{
 
     public double getArea() {
         return a * b;
+    }
+
+    @Override
+    public double getLength() {
+        return 0;
+    }
+
+    @Override
+    public void printPackageName() {
+
     }
 
 
